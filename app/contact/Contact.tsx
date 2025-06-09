@@ -9,30 +9,23 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-700 to-slate-900 flex justify-center items-center px-4 py-10">
       <div className="w-full max-w-2xl bg-white dark:bg-gray-900 shadow-xl rounded-2xl p-8 space-y-6">
-        {/* Animated Image */}
         <motion.div
-          className="flex justify-center"
-          initial={{ y: -30, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ type: "spring", stiffness: 100, damping: 12 }}
+          animate={{
+            y: [0, -7, 0],
+          }}
+          transition={{
+            duration: 3,
+            repeat: Infinity,
+            ease: "easeInOut",
+          }}
         >
-          <motion.div
-            animate={{
-              y: [0, -7, 0],
-            }}
-            transition={{
-              duration: 3,
-              repeat: Infinity,
-              ease: "easeInOut",
-            }}
-          >
-            <Image
-              src={contact}
-              alt="contact"
-              className="w-3/4 h-40 object-contain"
-            />
-          </motion.div>
+          <Image
+            src={contact}
+            alt="contact"
+            className="w-3/4 h-40 object-contain"
+          />
         </motion.div>
+
         {/* 
         <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white">
           Get in Touch
