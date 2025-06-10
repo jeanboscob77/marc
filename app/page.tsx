@@ -82,7 +82,7 @@ export default function HomePage() {
 
           {/* Bio */}
           <p
-            className="text-base md:text-lg text-gray-700 dark:text-gray-300 max-w-xl mx-auto mb-8 animate-slide-up"
+            className="text-base text-justify md:text-lg text-gray-700 dark:text-gray-300 max-w-xl mx-auto mb-8 animate-slide-up"
             style={{ animationDelay: "0.9s", animationFillMode: "forwards" }}
           >
             With 15+ years in higher education and hands-on industry experience,
@@ -103,7 +103,7 @@ export default function HomePage() {
             style={{ animationDelay: "1.1s", animationFillMode: "forwards" }}
           >
             <Link
-              href="/collaborate"
+              href="/contact"
               className="px-6 py-3 bg-indigo-600 text-white rounded-full shadow-md hover:bg-indigo-700 hover:scale-105 transition-transform"
             >
               Let’s Collaborate
@@ -122,7 +122,7 @@ export default function HomePage() {
             style={{ animationDelay: "1.3s", animationFillMode: "forwards" }}
           >
             <Link
-              href="https://github.com/"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-indigo-800 dark:hover:text-white transition-colors"
@@ -130,7 +130,7 @@ export default function HomePage() {
               <FaGithub />
             </Link>
             <Link
-              href="https://linkedin.com/"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-indigo-800 dark:hover:text-white transition-colors"
@@ -138,7 +138,7 @@ export default function HomePage() {
               <FaLinkedin />
             </Link>
             <Link
-              href="https://twitter.com/"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-indigo-800 dark:hover:text-white transition-colors"
@@ -163,7 +163,7 @@ export default function HomePage() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link
-                href="/projects/latest"
+                href="/projects"
                 className="px-6 py-3 bg-indigo-600 text-white font-medium rounded-full shadow-md hover:bg-indigo-700 hover:scale-105 transition-transform"
               >
                 Latest Project

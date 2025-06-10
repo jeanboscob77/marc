@@ -58,7 +58,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-semibold mb-4">Follow Me</h3>
             <div className="flex space-x-6 text-2xl">
-              <Link href="https://x.com/bjeanbosco48" target="_blank">
+              <Link href="#" target="_blank">
                 {/* <XLogo className="hover:text-blue-400 transition" /> */}
                 <Image
                   src={x_logo}
@@ -66,10 +66,10 @@ export default function Footer() {
                   className="w-5 h-auto filter hover:brightness-75 transition duration-300"
                 />
               </Link>
-              <Link href="https://github.com/jeanboscob77" target="_blank">
+              <Link href="#" target="_blank">
                 <Github className="hover:text-gray-400 transition" />
               </Link>
-              <Link href="https://linkedin.com/in/yourname" target="_blank">
+              <Link href="#" target="_blank">
                 <Linkedin className="hover:text-blue-500 transition" />
               </Link>
             </div>
@@ -82,13 +82,13 @@ export default function Footer() {
                 {" "}
                 <MailOpen size={24} className="mr-3" />
               </span>
-              bjeanbosco48@email.com
+              marsenapps@gmail.com
             </p>
             <p className="text-gray-300 flex items-center">
               <span>
                 <Phone size={20} className="mr-3" />
               </span>{" "}
-              +250 783 214 787
+              +250 780 542 122
             </p>
           </div>
         </div>
@@ -96,7 +96,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="text-center mt-6 border-t border-gray-700 pt-6">
           <p className="text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} Jean Bosco. All rights reserved.
+            &copy; {new Date().getFullYear()} Marco. All rights reserved.
           </p>
         </div>
         {/* Back to top */}
