@@ -33,23 +33,23 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/about" className="hover:text-blue-400">
+                  About
+                </Link>
+              </li>
+              <li>
                 <Link href="/projects" className="hover:text-blue-400">
                   Projects
                 </Link>
               </li>
               <li>
                 <Link href="/teaching" className="hover:text-blue-400">
-                  Projects
+                  Teaching
                 </Link>
               </li>
               <li>
                 <Link href="/contact" className="hover:text-blue-400">
                   Contact
-                </Link>
-              </li>
-              <li>
-                <Link href="/about" className="hover:text-blue-400">
-                  About
                 </Link>
               </li>
             </ul>
