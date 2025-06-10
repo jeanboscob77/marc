@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTheme } from "next-themes";
-import Jean from "@/public/Jean Bosco.png";
+import logo from "@/public/logo.jpg";
 
 type NavItem = {
   name: string;
@@ -58,7 +58,11 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="text-xl font-bold text-gray-800 dark:text-white">
           <Link href="/">
-            <Image src={Jean} alt="Logo" className="rounded-full md:w-10 w-8" />
+            <Image
+              src={logo}
+              alt="Logo"
+              className="rounded-full md:w-36 w-20"
+            />
           </Link>
         </div>
 

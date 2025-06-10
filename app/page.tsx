@@ -1,7 +1,44 @@
 import Link from "next/link";
 import Image from "next/image";
-import Jean from "@/public/Jean Bosco.jpg"; // Replace with Marc's photo if available
+import Marc from "@/public/Marc.jpg"; // Replace with Marc's photo if available
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Marc SENTWALI - Academician | Full-Stack Engineer | Data Scientist",
+  description:
+    "Explore Marc SENTWALI's portfolio, including work in academia, full-stack development, data science, and more.",
+  keywords:
+    "Marc SENTWALI, full-stack engineer, data scientist, software development, AI, machine learning, research, portfolio",
+  openGraph: {
+    type: "website",
+    title: "Marc SENTWALI - Academician | Full-Stack Engineer | Data Scientist",
+    description:
+      "Explore Marc SENTWALI's portfolio, including work in academia, full-stack development, data science, and more.",
+    url: "https://marc-rose.vercel.app",
+    siteName: "Marc SENTWALI's Website",
+    images: [
+      {
+        url: "https://www.yourwebsite.com/path-to-your-image.jpg",
+        width: 800,
+        height: 600,
+        alt: "Marc SENTWALI - Academician | Full-Stack Engineer | Data Scientist",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Marc SENTWALI - Academician | Full-Stack Engineer | Data Scientist",
+    description:
+      "Explore Marc SENTWALI's portfolio, including work in academia, full-stack development, data science, and more.",
+    // image: "https://www.yourwebsite.com/path-to-your-image.jpg",
+    site: "@yourtwitterhandle",
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
+};
 
 export default function HomePage() {
   return (
@@ -20,7 +57,7 @@ export default function HomePage() {
           >
             <div className="w-[130px] h-[130px] rounded-full overflow-hidden border-4 border-indigo-500 shadow-lg">
               <Image
-                src={Jean}
+                src={Marc}
                 alt="Marc Sentwali"
                 width={130}
                 height={130}
@@ -50,9 +87,8 @@ export default function HomePage() {
           >
             With 15+ years in higher education and hands-on industry experience,
             I bridge theory and practice in:
-            <br />
-            • Web Development: React.js, Next.js, Node.js, TailwindCSS, MongoDB{" "}
-            <br />
+            <br />• Web Development: React.js, Next.js, Node.js, TailwindCSS,
+            MongoDB <br />
             • Data Science: PySpark, Databricks, Tableau, Power BI <br />
             • Systems Engineering: Scalable architectures & cloud solutions
             <br />
